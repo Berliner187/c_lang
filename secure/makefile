@@ -1,4 +1,4 @@
-CC ?= gcc
+CC = gcc
 TARGET = enc256.bin
 
 all:

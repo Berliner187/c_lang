@@ -1,1 +1,7 @@
-void decrypt_string(const unsigned char *input, int length, const unsigned char *key, unsigned char *output);
+#ifndef DEC_H
+#define DEC_H
+
+void decryption(const char *encrypted_hex_string);
+
+#endif
+
